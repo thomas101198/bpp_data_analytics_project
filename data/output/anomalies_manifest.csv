@@ -1,0 +1,14 @@
+month,metric_name,anomaly_type,description,should_fixed_rule_catch,should_learned_method_catch
+2024-10-01,active_rate,LEVEL_SHIFT,Sudden downward step change of 3.5 percentage points.,True,True
+2024-04-01,arrears_rate,SLOW_DRIFT,Gradual cumulative arrears increase; individual monthly movements remain below 15%.,False,True
+2024-05-01,arrears_rate,SLOW_DRIFT,Gradual cumulative arrears increase; individual monthly movements remain below 15%.,False,True
+2024-06-01,arrears_rate,SLOW_DRIFT,Gradual cumulative arrears increase; individual monthly movements remain below 15%.,False,True
+2024-07-01,arrears_rate,SLOW_DRIFT,Gradual cumulative arrears increase; individual monthly movements remain below 15%.,False,True
+2024-08-01,arrears_rate,SLOW_DRIFT,Gradual cumulative arrears increase; individual monthly movements remain below 15%.,False,True
+2024-09-01,arrears_rate,SLOW_DRIFT,Gradual cumulative arrears increase; individual monthly movements remain below 15%.,False,True
+2025-04-01,new_mortgages_count,SEASONAL_FALSE_ALARM,Legitimate spring origination peak exceeding the fixed 15% threshold.,True,False
+2025-03-01,product_subtype_proportions,CATEGORY_DRIFT,Gradual migration from Fixed towards Tracker and SVR.,False,True
+2025-04-01,product_subtype_proportions,CATEGORY_DRIFT,Gradual migration from Fixed towards Tracker and SVR.,False,True
+2025-05-01,product_subtype_proportions,CATEGORY_DRIFT,Gradual migration from Fixed towards Tracker and SVR.,False,True
+2025-06-01,product_subtype_proportions,CATEGORY_DRIFT,Gradual migration from Fixed towards Tracker and SVR.,False,True
+2025-09-01,avg_ltv,MISSING_COLUMN,avg_ltv unavailable for this reporting month.,True,True
